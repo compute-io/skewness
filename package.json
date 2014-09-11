@@ -1,7 +1,7 @@
 {
   "name": "compute-skewness",
   "version": "0.0.0",
-  "description": "Computes the skewness of an array of values.",
+  "description": "Computes the sample skewness of an array of values.",
   "author": {
     "name": "Athan Reines",
     "email": "kgryte@gmail.com"
@@ -25,7 +25,10 @@
   "keywords": [
     "compute.io",
     "compute",
-    "computation"
+    "computation",
+    "statistics",
+    "stats",
+    "skewness"
   ],
   "bugs": {
     "url": "https://github.com/compute-io/skewness/issues"

@@ -2,7 +2,7 @@ Skewness
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Computes the skewness of an array of values.
+> Computes the sample skewness of an array of values.
 
 
 ## Installation
@@ -42,11 +42,11 @@ $ node ./examples/index.js
 ```
 
 
-## Note:
+## Notes
 
 The formula for computing the sample skewness comes from
 
-> Jones and Gill (1998). Comparing measures of sample skewness and kurtosis. The Statistician. [DOI: 10.1111/1467-9884.00122](http://onlinelibrary.wiley.com/doi/10.1111/1467-9884.00122/)
+> Jones and Gill (1998). Comparing measures of sample skewness and kurtosis. _The Statistician_. [DOI: 10.1111/1467-9884.00122](http://onlinelibrary.wiley.com/doi/10.1111/1467-9884.00122/)
 
 The test data comes from [Measures of Shape: Skewness and Kurtosis](http://www.tc3.edu/instruct/sbrown/stat/shape.htm) by Stan Brown.
 
