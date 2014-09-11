@@ -1,4 +1,4 @@
-skewness
+Skewness
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
@@ -19,14 +19,20 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 To use the module,
 
 ``` javascript
-var lib = require( 'compute-skewness' );
+var skewness = require( 'compute-skewness' );
 ```
 
 
 ## Examples
 
 ``` javascript
-var lib = require( 'compute-skewness' );
+var data = new Array( 100 );
+
+for ( var i = 0; i < data.length; i++ ) {
+	data[ i ] = Math.random();
+}
+
+console.log( skewness( data ) );
 ```
 
 To run the example code from the top-level application directory,
@@ -34,6 +40,15 @@ To run the example code from the top-level application directory,
 ``` bash
 $ node ./examples/index.js
 ```
+
+
+## Note:
+
+The formula for computing the sample skewness comes from
+
+> Jones and Gill (1998). Comparing measures of sample skewness and kurtosis. The Statistician. [DOI: 10.1111/1467-9884.00122](http://onlinelibrary.wiley.com/doi/10.1111/1467-9884.00122/)
+
+The test data comes from [Measures of Shape: Skewness and Kurtosis](http://www.tc3.edu/instruct/sbrown/stat/shape.htm) by Stan Brown.
 
 
 ## Tests
