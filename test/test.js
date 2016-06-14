@@ -60,7 +60,7 @@ describe( 'compute-skewness', function tests() {
 		}
 		expected = -0.1098;
 
-		assert.closeTo( skewness( data ), expected, 0.001 );
+		assert.closeTo( skewness( data ), expected, 0.0001 );
 	});
 
 });
