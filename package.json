@@ -1,6 +1,6 @@
 {
   "name": "compute-skewness",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Computes the sample skewness of an array of values.",
   "author": {
     "name": "Athan Reines",
